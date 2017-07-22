@@ -19,7 +19,7 @@ import fr.ekito.gwt.client.ui.MainPanel;
 public class GwtWebAppGinModule extends AbstractGinModule{
 
 	@Override
-	protected void configure() {
+	protected void configure() { 
 		// Resources
 		bind(Messages.class).in(Singleton.class);
 		bind(ApplicationResources.class).in(Singleton.class);
