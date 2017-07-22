@@ -35,7 +35,7 @@ public class WebAppController {
 	/**
 	 * Event Bus
 	 */
-	private SimpleEventBus _eventBus;
+	private SimpleEventBus _eventBus ;
 
 	/**
 	 * Model Handler
