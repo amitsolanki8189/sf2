@@ -25,7 +25,7 @@ public class GwtWebAppGinModule extends AbstractGinModule{
 		bind(ApplicationResources.class).in(Singleton.class);
 		
 		// Core
-		bind(SimpleEventBus.class).in(Singleton.class);
+		bind(SimpleEventBus.class).in(Singleton.class) ; 
 		bind(WebAppController.class).in(Singleton.class);
 		bind(ModelHandler.class).in(Singleton.class);
 		
